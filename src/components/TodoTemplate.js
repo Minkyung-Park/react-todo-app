@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/TodoTemplate.scss"
 
-const TodoTempLate = ({children}) => {
+const TodoTemplate = ({children}) => {
     return (
         <div className="TodoTemplate">
             <div className="app-title">일정관리</div>
