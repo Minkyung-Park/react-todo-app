@@ -14,7 +14,7 @@ const TodoListItem = () => {
 
   return (
     <div className="TodoListItem">
-      <div className={(classNames("checkbox"), { checked })}>
+      <div className={classNames("checkbox", { checked })}>
         {checked ? <MdCheckBox /> : <MdCheckBoxOutlineBlank />}
 
         <div className="text">리액트 공부하기 </div>
